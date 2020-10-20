@@ -1,6 +1,6 @@
 #!/bin/sh
 
-for dir in "An Imitation of Spenser" "Auguries of Innocence" "Fair Elanor"; do
+for dir in "An Imitation of Spenser" "Auguries of Innocence" "Fair Elanor" ; do
   echo "Checking $dir folder"
 
   mkdir -p "results/$dir"
